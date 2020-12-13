@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+	<title>Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="images/favicon.png"/>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="bg-blue">
+        <header>
+          <nav class="navbar">
+            <a href="#">
+               <img src="images/logo-header.svg" alt="logo" width="222" height="53">
+            </a>
+            <a class="menu" onclick="openNav()">Menu</a>
+            <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "350px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+            </script>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+              <a href="#">About Us</a>
+              <a href="#">Liberary</a>
+              <a href="#">Contact Us</a>
+              <span class="divider"></span>
+              <a href="#">
+              <img src="images/logo-menu.svg" alt="logo" width="222" height="51">
+              </a>
+            </div>
+          </nav>
+        </header>
+        <section class="flex-row top-content">
+          <div>
+            <img src="images/objects.png" alt="Objects image" >
+          </div>
+          <div>
+            <h1>Lorem Ipsum</h1>
+            <p>Where can I get some?<br/>
+              Lorem Ipsum is simply text of the printing and typesetting industry.
+            </p>
+            <a href="#" class="btn">Lear More</a>
+          </div>
+        </section>
+      </div>
+      <section class="info flex-row">
+        <div class="info-left">
+          <!-- <img src="images/devices.svg" alt="Devices Image"> -->
+          <div class="flex-row">
+            <i class="icon-devices"></i>
+            <h2>New Aplication For <br/>
+              All <span>Devices</span>
+            </h2>
+          </div>
+          <p>Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry.Lorem Ipsum is simply dummy text
+            of the printing and typesetting industry.
+          </p>
+          <p class="quote">
+            t is a long established fact that a reader will be distracted by the readable content
+            of a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+          </p>
+        </div>
+        <div class="mobiles"></div>
+      </section>
+      <section class="expertise">
+        <div>
+          <h2>Our Expertise</h2>
+          <p>Our client base includes manufacturers and importers from within and outside the 
+            European Union. 
+          </p>
+          <span class="border"></span>
+          <p>
+            Any desktop publishing packages and web page editors now use Lorem Ipsum as
+            their default model text, and a search for 'lorem ipsum' will uncover 
+            many web sites still in their infancy.
+          </p>
+          <a href="#" class="btn-otline" aria-label="Read More about our exertise">Read More</a>
+        </div>
+      </section>
+      <section class="prodacts">
+        <h2>Our Prodacts</h2>
+        <span class="border border-dark"></span>
+        <div class="rt-row">
+          <div class="rt-container">
+            <div class="col-rt-12">
+              <div class='demo-container'>
+                <div class='carousel'>
+                  <input checked='checked' class='carousel__activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
+                  <input class='carousel__activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
+                  <input class='carousel__activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
+                  <div class='carousel__controls'>
+                    <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-2'>
+                    <img src="images/slider-arrow.svg" alt="Next Slide">
+                    </label>
+                  </div>
+                  <div class='carousel__controls'>
+                    <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-1'>
+                    <img src="images/slider-arrow.svg" alt="Prev Slide" class="prev">
+                    </label>
+                    <label class='carousel__control carousel__control--forward' for='carousel-slide-activator-3'>
+                    <img src="images/slider-arrow.svg" alt="Next Slide">
+                    </label>
+                  </div>
+                  <div class='carousel__controls'>
+                    <label class='carousel__control carousel__control--backward' for='carousel-slide-activator-2'>
+                    <img src="images/slider-arrow.svg" alt="Prev Slide" class="prev">
+                    </label>
+                  </div>
+                  <div class='carousel__screen'>
+                    <div class='carousel__track'>
+                      <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                        <div class='demo-content'>
+                          <figure>
+                          <img src="images/toys.svg" alt="Image for Toys" >
+                          <figcaption>
+                            <h3>Toys</h3>
+                            <p>
+                              CE certification in accordance with the Toys Safety Directive 2009/48/EC.
+                            </p>
+                            <a href="#">More</a>
+                          </figcaption>
+                          </figyre>
+                        </div>
+                      </div>
+                      <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                        <div class='demo-content'>
+                          <figure>
+                          <img src="images/electronic.svg" alt="Medical Devices Image" >
+                          <figcaption>
+                            <h3>Electronic Equipment</h3>
+                            <p>
+                              CE certification in accordance with the Toys Safety Directive 2009/48/EC.
+                            </p>
+                            <a href="#">More</a>
+                          </figcaption>
+                          </figyre>
+                        </div>
+                      </div>
+                      <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                        <div class='demo-content'>
+                          <figure>
+                          <img src="images/medical.svg" alt="Electronic Equipment Image" >
+                          <figcaption>
+                            <h3>Medical Devices</h3>
+                            <p>
+                              CE certification in accordance with the Toys Safety Directive 2009/48/EC.
+                            </p>
+                            <a href="#">More</a>
+                          </figcaption>
+                          </figyre>
+                        </div>
+                      </div>
+                      <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                        <div class='demo-content'>
+                          <figure>
+                          <img src="images/machinery.svg" alt="Machinery Image" >
+                          <figcaption>
+                            <h3>Machinery</h3>
+                            <p>
+                              CE certification in accordance with the Toys Safety Directive 2009/48/EC.
+                            </p>
+                            <a href="#">More</a>
+                          </figcaption>
+                          </figyre>
+                        </div>
+                      </div>
+                      <!-- <div class='carousel__item carousel__item--mobile-in-1 carousel__item--tablet-in-2 carousel__item--desktop-in-3'>
+                        <div class='demo-content'>
+                        	<figure>
+                        		<img src="images/machinery.svg" alt="Machinery Image" >
+                        		<figcaption>
+                        			<h3>Machinery</h3>
+                        			<p>
+                        			  CE certification in accordance with the Toys Safety Directive 2009/48/EC.
+                        			</p>
+                        			<a href="#">More</a>
+                        		</figcaption>
+                        	</figyre>
+                        </div>
+                         </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <h2>Our Partners</h2>
+        <span class="border border-dark"></span>
+        <div class="flex-row">
+          <a href="#">
+          <img src="images/maple_logo.svg" alt="Logo Maple">
+          </a>
+          <a href="#">
+          <img src="images/duracloud_logo.svg" alt="Logo Duracloud">
+          </a>
+          <a href="#">
+          <img src="images/tenable_logo.svg" alt="Logo Tenable">
+          </a>
+          <a href="#">
+          <img src="images/ursus_logos.svg" alt="Logo Ursus">
+          </a>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="content">
+          <h2>Newsletter</h2>
+          <span class="border"></span>
+          <form action="#" method="POST">
+            <input type="text" placeholder="Full Name" autofocus>
+            <input type="mail" placeholder="E-mail" >
+            <input type="number" placeholder="Phone Number">
+            <input type="submit" value="REQUEST">
+          </form>
+        </div>
+      </section>
+      <section class="bg-lightblue">
+        <small>It is a long established fact that a reader will be distracted by the readable content English. </small>
+      </section>
+    </main>
+    <footer>
+      <div class="flex-row">
+        <div>
+          <a href="#">
+          <img src="images/footer-logo.svg" alt="logo" width="298" height="69">
+          </a>
+        </div>
+        <div>
+          <a href="#">About Us</a>
+          <a href="#">Liberary</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div>
+          <a href="#">&copy;  2019. Privacy Policy</a>
+          <a href="#" class="jump-top"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <html>
